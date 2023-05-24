@@ -2,14 +2,15 @@
   "name": "bconnect-web-components",
   "version": "2.1.1",
   "description": "web  components for bconnect",
-  "author": "",
+  "author": "zestgeek",
+  "repository": "https://github.com/prathammehra50/bconnect-web-components",
   "keywords": "lit, lit-html, bconnect",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev": "webpack --config webpack.config.js --watch"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lit": "^2.7.4"
   },
