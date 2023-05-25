@@ -7,17 +7,18 @@
   "keywords": "lit, lit-html, bconnect",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "dev": "webpack --config webpack.config.js --watch"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "lite-server"
   },
   "license": "MIT",
-  "dependencies": {
-    "lit": "^2.7.4"
-  },
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
     "babel-loader": "^9.1.2",
+    "lit": "^2.7.4",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.0.4",
     "webpack": "^5.83.1",
     "webpack-cli": "^5.1.1"
   }
